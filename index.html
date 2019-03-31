@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vibration API</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <!-- place the custom tag anywhere inside the body -->
+  <app />
+  <!-- include the tag -->
+  <script type="riot/tag" src="components/app.tag"></script>
+  <!-- include riot.js -->
+  <script src="https://cdn.jsdelivr.net/npm/riot@3.13/riot+compiler.min.js"></script>
+  <!-- mount the tag -->
+  <script>
+    riot.mount('app')
+  </script>
+</body>
+
+</html>
