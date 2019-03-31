@@ -1,5 +1,5 @@
 <app>
-  <b class="caution">バイブ・音が鳴ります。AndoridのChromeまたはSafariで閲覧してください。</b>
+  <b class="caution">バイブ・音が鳴ります。AndoridのChromeまたはFirefoxで閲覧してください。</b>
   <button class="btn" if={ !audio } onclick={ onPlayClick }>ブッチッパ</button>
   <button class="btn" if={ audio } onclick={ onStopClick }>とめる</button>
 
