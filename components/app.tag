@@ -1,4 +1,5 @@
 <app>
+  <h1>Vibration API Sample</h1>
   <b class="caution">バイブ・音が鳴ります。AndoridのChromeまたはFirefoxで閲覧してください。</b>
   <button class="btn" if={ !audio } onclick={ onPlayClick }>ブッチッパ</button>
   <button class="btn" if={ audio } onclick={ onStopClick }>とめる</button>
